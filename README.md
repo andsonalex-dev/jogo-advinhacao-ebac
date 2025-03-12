@@ -1,0 +1,1 @@
+Jogo de advinhação com JavaScript, projeto aula front-end EBAC.
