@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+}
+header{
+    width: 100%;
+    background-color: rgb(51, 86, 182);
+    padding: 5px;
+}
+header h2{
+    color: rgb(252, 252, 252);
+}
+main {
+    width: 60%;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 10px;
+    margin: 10px auto;
+    min-height: 200px;
+
+}
+main p{
+    margin: 10px;
+    font-size: 18px;
+}
+
+main input {
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(58, 58, 179);
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+main button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(69, 69, 240);
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+}
+
+main button:hover {
+    background-color: rgb(55, 55, 196);
+}
+
+.acerto {
+    color: rgb(16, 133, 16);
+    font-weight: bold;
+}
+.erro {
+    color: rgb(218, 3, 3);
+    font-weight: bold;
+}
